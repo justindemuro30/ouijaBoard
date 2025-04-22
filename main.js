@@ -17,13 +17,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     document.getElementById('dinner').addEventListener('click', () => {
-        const dinnerOptions = ['baseball field dirt', 'crickets', 'steak', 'brisket'];
+        const dinnerOptions = ['Dirt', 'Crickets', 'Steak', 'Brisket'];
         const dinner = dinnerOptions[Math.floor(Math.random() * dinnerOptions.length)];
         result.textContent = `You will have ${dinner} for dinner next Wednesday.`;
     });
 
     document.getElementById('car').addEventListener('click', () => {
-        const carOptions = ['hoopty', 'scooter', 'cadillac', 'bugatti'];
+        const carOptions = ['Hoopty', 'Rascal Scooter', 'Cadillac', 'Bugatti'];
         const car = carOptions[Math.floor(Math.random() * carOptions.length)];
         result.textContent = `You will drive a ${car}.`;
     });
