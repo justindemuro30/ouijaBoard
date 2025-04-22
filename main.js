@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     document.getElementById('dinner').addEventListener('click', () => {
-        const dinnerOptions = ['Dirt', 'Crickets', 'Steak', 'Brisket'];
+        const dinnerOptipwons = ['Lobster', 'Veal', 'Steak', 'Brisket'];
         const dinner = dinnerOptions[Math.floor(Math.random() * dinnerOptions.length)];
         result.textContent = `You will have ${dinner} for dinner next Wednesday.`;
     });
