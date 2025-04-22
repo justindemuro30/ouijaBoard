@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     document.getElementById('car').addEventListener('click', () => {
-        const carOptions = ['Hoopty', 'Rascal Scooter', 'Cadillac', 'Bugatti'];
+        const carOptions = ['Hoopty'];
         const car = carOptions[Math.floor(Math.random() * carOptions.length)];
         result.textContent = `You will drive a ${car}.`;
     });
